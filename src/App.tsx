@@ -1,12 +1,15 @@
 import { useState } from 'react'
-
+import Register from './containers/Register'
+import Header from './components/Header'
+import './App.css'
 
 function App() {
 
 
   return (
     <>
-      <div>Hello</div>
+      <Header />
+      {/* <Register /> */}
     </>
   )
 }
